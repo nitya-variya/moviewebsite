@@ -1,0 +1,57 @@
+@media screen and (max-width:1199px) {
+    .movie_part .movie_warp .movie_box {
+        width: 23%;
+    }
+
+    .tabs .bottom_tabs ul {
+        padding: 0 30px !important;
+    }
+
+    .close_line .close_p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    .topbar .logo {
+        display: none;
+    }
+
+    .links_part {
+        padding: 0 20px;
+    }
+
+    .topbar .links_part .resposhive_logo {
+        display: block;
+    }
+
+    .links_part .left {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 300px;
+        transform: translateX(-300px);
+    }
+
+    .links_part .left ul {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .topbar .links_part .hum {
+        display: block;
+    }
+
+    .hum i {
+        color: #fff;
+    }
+
+    .links_part .right input{
+        display: none;
+    }
+}
